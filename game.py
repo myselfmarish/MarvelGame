@@ -1,12 +1,18 @@
-from random import randint
-
-while player_choice is False:
-	print("██████► ◄██████ Marvel YES or NO Game ██████► ◄██████")
-	print(" Think of one of the Marvel’s characters in the list and answer the question Y or N. At the end computer should give your character.")
-
-	player_choice = input ("Would you like to start a game?")
+from Components import Variables, Functions
 
 
+print("██████► ◄██████ Marvel YES or NO Game ██████► ◄██████")
+print(" Choose between these Marvel characters: ")
+print(*Variables.characters,sep=", ")
 
 
+counter = 0
+while(counter<len(Variables.questions)):
+    print(Variables.questions[counter])
+    Functions.pointSystem(counter)
+    print("Points: ",Variables.points)
+    counter=counter+1
+
+
+Functions.guessTheCharacter(Variables.points)
 
