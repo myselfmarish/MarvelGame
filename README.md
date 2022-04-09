@@ -4,7 +4,7 @@ A virtual “The Yes Or No” game is a quikfire, rapid speaking game which you 
 
 
 ## Project Roadmap File
-[Project roadmap Google Doc link] ( https://docs.google.com/document/d/16UcVMjew2oqYm7JkK7pdlIkc4fJx6Uh-VGcnyspvmQs/edit?usp=sharing )
+[Project roadmap Google Doc link](https://docs.google.com/document/d/16UcVMjew2oqYm7JkK7pdlIkc4fJx6Uh-VGcnyspvmQs/edit?usp=sharing)
 
 ## The MIT License
 Copyright 2022 Shevchenko Maria
